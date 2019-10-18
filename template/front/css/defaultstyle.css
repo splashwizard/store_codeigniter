@@ -1,0 +1,469 @@
+/*!
+** Theme style Sheet
+** Default Style
+**	
+**	
+**
+*/
+a {
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	outline: none;
+}
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/** Generate fonts ****/
+
+
+/*******************************/
+.contact-form .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-style: italic;
+}
+.contact-form .form-control::-moz-placeholder { /* Firefox 19+ */
+  font-style: italic;
+}
+.contact-form .form-control:-ms-input-placeholder { /* IE 10+ */
+  font-style: italic;
+}
+.contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+  font-style: italic;
+}
+
+
+.newsletter-section-wrp .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #fff;
+}
+.newsletter-section-wrp .form-control::-moz-placeholder { /* Firefox 19+ */
+	color: #fff;
+}
+.newsletter-section-wrp .form-control:-ms-input-placeholder { /* IE 10+ */
+	color: #fff;
+}
+.newsletter-section-wrp .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #fff;
+}
+.vh1 {
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.vh2 {
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.vh3 {
+	display: table-cell;
+    vertical-align: middle;
+}
+.prelative {
+	position: relative;
+}
+/*** Width ***/
+
+.fullwidth {
+	width: 100%;
+}
+.dinline {
+	display: inline;
+}
+.dinline-block {
+	display: inline-block;
+}
+.dtable {
+	display: table;
+}
+
+/*** Font Weight ***/
+
+.thinfotn {
+	font-weight: 100;
+}
+.lightfotn {
+	font-weight: 300;
+}
+.regularfotn {
+	font-weight: 400;
+}
+.mediumfotn {
+	font-weight: 500;
+}
+.boldfont {
+	font-weight: 700;
+}
+.blackfont {
+	font-weight: 900;
+}
+.italicfont {
+	font-style: italic;
+}
+/** Spacing Pdding ***/
+
+.nopadding {
+	padding: 0;
+}
+.maall-0 {margin: 0px;}.mat-0 {margin-top: 0px;}.mab-0 {margin-bottom: 0px;}.matb-0 {margin-top: 0px;margin-bottom: 0px;}.mal-0 {margin-left: 0px;}.mar-0 {margin-right: 0px;}.malr-0 {margin-left: 0px;margin-right: 0px;}.paall-0 {padding: 0px;}.pab-0 {padding-bottom: 0px;}.pat-0 {padding-top: 0px;}.patb-0 {padding-top: 0px;padding-bottom: 0px;}.pal-0 {padding-left: 0px;}.par-0 {padding-right: 0px;}.palr-0 {padding-left: 0px;padding-right: 0px;}.maall-5 {margin: 5px;}.mat-5 {margin-top: 5px;}.mab-5 {margin-bottom: 5px;}.matb-5 {margin-top: 5px;margin-bottom: 5px;}.mal-5 {margin-left: 5px;}.mar-5 {margin-right: 5px;}.malr-5 {margin-left: 5px;margin-right: 5px;}.paall-5 {padding: 5px;}.pab-5 {padding-bottom: 5px;}.pat-5 {padding-top: 5px;}.patb-5 {padding-top: 5px;padding-bottom: 5px;}.pal-5 {padding-left: 5px;}.par-5 {padding-right: 5px;}.palr-5 {padding-left: 5px;padding-right: 5px;}.maall-10 {margin: 10px;}.mat-10 {margin-top: 10px;}.mab-10 {margin-bottom: 10px;}.matb-10 {margin-top: 10px;margin-bottom: 10px;}.mal-10 {margin-left: 10px;}.mar-10 {margin-right: 10px;}.malr-10 {margin-left: 10px;margin-right: 10px;}.paall-10 {padding: 10px;}.pab-10 {padding-bottom: 10px;}.pat-10 {padding-top: 10px;}.patb-10 {padding-top: 10px;padding-bottom: 10px;}.pal-10 {padding-left: 10px;}.par-10 {padding-right: 10px;}.palr-10 {padding-left: 10px;padding-right: 10px;}.maall-15 {margin: 15px;}.mat-15 {margin-top: 15px;}.mab-15 {margin-bottom: 15px;}.matb-15 {margin-top: 15px;margin-bottom: 15px;}.mal-15 {margin-left: 15px;}.mar-15 {margin-right: 15px;}.malr-15 {margin-left: 15px;margin-right: 15px;}.paall-15 {padding: 15px;}.pab-15 {padding-bottom: 15px;}.pat-15 {padding-top: 15px;}.patb-15 {padding-top: 15px;padding-bottom: 15px;}.pal-15 {padding-left: 15px;}.par-15 {padding-right: 15px;}.palr-15 {padding-left: 15px;padding-right: 15px;}.maall-20 {margin: 20px;}.mat-20 {margin-top: 20px;}.mab-20 {margin-bottom: 20px;}.matb-20 {margin-top: 20px;margin-bottom: 20px;}.mal-20 {margin-left: 20px;}.mar-20 {margin-right: 20px;}.malr-20 {margin-left: 20px;margin-right: 20px;}.paall-20 {padding: 20px;}.pab-20 {padding-bottom: 20px;}.pat-20 {padding-top: 20px;}.patb-20 {padding-top: 20px;padding-bottom: 20px;}.pal-20 {padding-left: 20px;}.par-20 {padding-right: 20px;}.palr-20 {padding-left: 20px;padding-right: 20px;}.maall-25 {margin: 25px;}.mat-25 {margin-top: 25px;}.mab-25 {margin-bottom: 25px;}.matb-25 {margin-top: 25px;margin-bottom: 25px;}.mal-25 {margin-left: 25px;}.mar-25 {margin-right: 25px;}.malr-25 {margin-left: 25px;margin-right: 25px;}.paall-25 {padding: 25px;}.pab-25 {padding-bottom: 25px;}.pat-25 {padding-top: 25px;}.patb-25 {padding-top: 25px;padding-bottom: 25px;}.pal-25 {padding-left: 25px;}.par-25 {padding-right: 25px;}.palr-25 {padding-left: 25px;padding-right: 25px;}.maall-30 {margin: 30px;}.mat-30 {margin-top: 30px;}.mab-30 {margin-bottom: 30px;}.matb-30 {margin-top: 30px;margin-bottom: 30px;}.mal-30 {margin-left: 30px;}.mar-30 {margin-right: 30px;}.malr-30 {margin-left: 30px;margin-right: 30px;}.paall-30 {padding: 30px;}.pab-30 {padding-bottom: 30px;}.pat-30 {padding-top: 30px;}.patb-30 {padding-top: 30px;padding-bottom: 30px;}.pal-30 {padding-left: 30px;}.par-30 {padding-right: 30px;}.palr-30 {padding-left: 30px;padding-right: 30px;}.maall-35 {margin: 35px;}.mat-35 {margin-top: 35px;}.mab-35 {margin-bottom: 35px;}.matb-35 {margin-top: 35px;margin-bottom: 35px;}.mal-35 {margin-left: 35px;}.mar-35 {margin-right: 35px;}.malr-35 {margin-left: 35px;margin-right: 35px;}.paall-35 {padding: 35px;}.pab-35 {padding-bottom: 35px;}.pat-35 {padding-top: 35px;}.patb-35 {padding-top: 35px;padding-bottom: 35px;}.pal-35 {padding-left: 35px;}.par-35 {padding-right: 35px;}.palr-35 {padding-left: 35px;padding-right: 35px;}.maall-40 {margin: 40px;}.mat-40 {margin-top: 40px;}.mab-40 {margin-bottom: 40px;}.matb-40 {margin-top: 40px;margin-bottom: 40px;}.mal-40 {margin-left: 40px;}.mar-40 {margin-right: 40px;}.malr-40 {margin-left: 40px;margin-right: 40px;}.paall-40 {padding: 40px;}.pab-40 {padding-bottom: 40px;}.pat-40 {padding-top: 40px;}.patb-40 {padding-top: 40px;padding-bottom: 40px;}.pal-40 {padding-left: 40px;}.par-40 {padding-right: 40px;}.palr-40 {padding-left: 40px;padding-right: 40px;}.maall-45 {margin: 45px;}.mat-45 {margin-top: 45px;}.mab-45 {margin-bottom: 45px;}.matb-45 {margin-top: 45px;margin-bottom: 45px;}.mal-45 {margin-left: 45px;}.mar-45 {margin-right: 45px;}.malr-45 {margin-left: 45px;margin-right: 45px;}.paall-45 {padding: 45px;}.pab-45 {padding-bottom: 45px;}.pat-45 {padding-top: 45px;}.patb-45 {padding-top: 45px;padding-bottom: 45px;}.pal-45 {padding-left: 45px;}.par-45 {padding-right: 45px;}.palr-45 {padding-left: 45px;padding-right: 45px;}.maall-50 {margin: 50px;}.mat-50 {margin-top: 50px;}.mab-50 {margin-bottom: 50px;}.matb-50 {margin-top: 50px;margin-bottom: 50px;}.mal-50 {margin-left: 50px;}.mar-50 {margin-right: 50px;}.malr-50 {margin-left: 50px;margin-right: 50px;}.paall-50 {padding: 50px;}.pab-50 {padding-bottom: 50px;}.pat-50 {padding-top: 50px;}.patb-50 {padding-top: 50px;padding-bottom: 50px;}.pal-50 {padding-left: 50px;}.par-50 {padding-right: 50px;}.palr-50 {padding-left: 50px;padding-right: 50px;}.maall-55 {margin: 55px;}.mat-55 {margin-top: 55px;}.mab-55 {margin-bottom: 55px;}.matb-55 {margin-top: 55px;margin-bottom: 55px;}.mal-55 {margin-left: 55px;}.mar-55 {margin-right: 55px;}.malr-55 {margin-left: 55px;margin-right: 55px;}.paall-55 {padding: 55px;}.pab-55 {padding-bottom: 55px;}.pat-55 {padding-top: 55px;}.patb-55 {padding-top: 55px;padding-bottom: 55px;}.pal-55 {padding-left: 55px;}.par-55 {padding-right: 55px;}.palr-55 {padding-left: 55px;padding-right: 55px;}.maall-60 {margin: 60px;}.mat-60 {margin-top: 60px;}.mab-60 {margin-bottom: 60px;}.matb-60 {margin-top: 60px;margin-bottom: 60px;}.mal-60 {margin-left: 60px;}.mar-60 {margin-right: 60px;}.malr-60 {margin-left: 60px;margin-right: 60px;}.paall-60 {padding: 60px;}.pab-60 {padding-bottom: 60px;}.pat-60 {padding-top: 60px;}.patb-60 {padding-top: 60px;padding-bottom: 60px;}.pal-60 {padding-left: 60px;}.par-60 {padding-right: 60px;}.palr-60 {padding-left: 60px;padding-right: 60px;}.maall-65 {margin: 65px;}.mat-65 {margin-top: 65px;}.mab-65 {margin-bottom: 65px;}.matb-65 {margin-top: 65px;margin-bottom: 65px;}.mal-65 {margin-left: 65px;}.mar-65 {margin-right: 65px;}.malr-65 {margin-left: 65px;margin-right: 65px;}.paall-65 {padding: 65px;}.pab-65 {padding-bottom: 65px;}.pat-65 {padding-top: 65px;}.patb-65 {padding-top: 65px;padding-bottom: 65px;}.pal-65 {padding-left: 65px;}.par-65 {padding-right: 65px;}.palr-65 {padding-left: 65px;padding-right: 65px;}.maall-70 {margin: 70px;}.mat-70 {margin-top: 70px;}.mab-70 {margin-bottom: 70px;}.matb-70 {margin-top: 70px;margin-bottom: 70px;}.mal-70 {margin-left: 70px;}.mar-70 {margin-right: 70px;}.malr-70 {margin-left: 70px;margin-right: 70px;}.paall-70 {padding: 70px;}.pab-70 {padding-bottom: 70px;}.pat-70 {padding-top: 70px;}.patb-70 {padding-top: 70px;padding-bottom: 70px;}.pal-70 {padding-left: 70px;}.par-70 {padding-right: 70px;}.palr-70 {padding-left: 70px;padding-right: 70px;}.maall-75 {margin: 75px;}.mat-75 {margin-top: 75px;}.mab-75 {margin-bottom: 75px;}.matb-75 {margin-top: 75px;margin-bottom: 75px;}.mal-75 {margin-left: 75px;}.mar-75 {margin-right: 75px;}.malr-75 {margin-left: 75px;margin-right: 75px;}.paall-75 {padding: 75px;}.pab-75 {padding-bottom: 75px;}.pat-75 {padding-top: 75px;}.patb-75 {padding-top: 75px;padding-bottom: 75px;}.pal-75 {padding-left: 75px;}.par-75 {padding-right: 75px;}.palr-75 {padding-left: 75px;padding-right: 75px;}.maall-80 {margin: 80px;}.mat-80 {margin-top: 80px;}.mab-80 {margin-bottom: 80px;}.matb-80 {margin-top: 80px;margin-bottom: 80px;}.mal-80 {margin-left: 80px;}.mar-80 {margin-right: 80px;}.malr-80 {margin-left: 80px;margin-right: 80px;}.paall-80 {padding: 80px;}.pab-80 {padding-bottom: 80px;}.pat-80 {padding-top: 80px;}.patb-80 {padding-top: 80px;padding-bottom: 80px;}.pal-80 {padding-left: 80px;}.par-80 {padding-right: 80px;}.palr-80 {padding-left: 80px;padding-right: 80px;}.maall-85 {margin: 85px;}.mat-85 {margin-top: 85px;}.mab-85 {margin-bottom: 85px;}.matb-85 {margin-top: 85px;margin-bottom: 85px;}.mal-85 {margin-left: 85px;}.mar-85 {margin-right: 85px;}.malr-85 {margin-left: 85px;margin-right: 85px;}.paall-85 {padding: 85px;}.pab-85 {padding-bottom: 85px;}.pat-85 {padding-top: 85px;}.patb-85 {padding-top: 85px;padding-bottom: 85px;}.pal-85 {padding-left: 85px;}.par-85 {padding-right: 85px;}.palr-85 {padding-left: 85px;padding-right: 85px;}.maall-90 {margin: 90px;}.mat-90 {margin-top: 90px;}.mab-90 {margin-bottom: 90px;}.matb-90 {margin-top: 90px;margin-bottom: 90px;}.mal-90 {margin-left: 90px;}.mar-90 {margin-right: 90px;}.malr-90 {margin-left: 90px;margin-right: 90px;}.paall-90 {padding: 90px;}.pab-90 {padding-bottom: 90px;}.pat-90 {padding-top: 90px;}.patb-90 {padding-top: 90px;padding-bottom: 90px;}.pal-90 {padding-left: 90px;}.par-90 {padding-right: 90px;}.palr-90 {padding-left: 90px;padding-right: 90px;}.maall-95 {margin: 95px;}.mat-95 {margin-top: 95px;}.mab-95 {margin-bottom: 95px;}.matb-95 {margin-top: 95px;margin-bottom: 95px;}.mal-95 {margin-left: 95px;}.mar-95 {margin-right: 95px;}.malr-95 {margin-left: 95px;margin-right: 95px;}.paall-95 {padding: 95px;}.pab-95 {padding-bottom: 95px;}.pat-95 {padding-top: 95px;}.patb-95 {padding-top: 95px;padding-bottom: 95px;}.pal-95 {padding-left: 95px;}.par-95 {padding-right: 95px;}.palr-95 {padding-left: 95px;padding-right: 95px;}.maall-100 {margin: 100px;}.mat-100 {margin-top: 100px;}.mab-100 {margin-bottom: 100px;}.matb-100 {margin-top: 100px;margin-bottom: 100px;}.mal-100 {margin-left: 100px;}.mar-100 {margin-right: 100px;}.malr-100 {margin-left: 100px;margin-right: 100px;}.paall-100 {padding: 100px;}.pab-100 {padding-bottom: 100px;}.pat-100 {padding-top: 100px;}.patb-100 {padding-top: 100px;padding-bottom: 100px;}.pal-100 {padding-left: 100px;}.par-100 {padding-right: 100px;}.palr-100 {padding-left: 100px;padding-right: 100px;}.maall-105 {margin: 105px;}.mat-105 {margin-top: 105px;}.mab-105 {margin-bottom: 105px;}.matb-105 {margin-top: 105px;margin-bottom: 105px;}.mal-105 {margin-left: 105px;}.mar-105 {margin-right: 105px;}.malr-105 {margin-left: 105px;margin-right: 105px;}.paall-105 {padding: 105px;}.pab-105 {padding-bottom: 105px;}.pat-105 {padding-top: 105px;}.patb-105 {padding-top: 105px;padding-bottom: 105px;}.pal-105 {padding-left: 105px;}.par-105 {padding-right: 105px;}.palr-105 {padding-left: 105px;padding-right: 105px;}.maall-110 {margin: 110px;}.mat-110 {margin-top: 110px;}.mab-110 {margin-bottom: 110px;}.matb-110 {margin-top: 110px;margin-bottom: 110px;}.mal-110 {margin-left: 110px;}.mar-110 {margin-right: 110px;}.malr-110 {margin-left: 110px;margin-right: 110px;}.paall-110 {padding: 110px;}.pab-110 {padding-bottom: 110px;}.pat-110 {padding-top: 110px;}.patb-110 {padding-top: 110px;padding-bottom: 110px;}.pal-110 {padding-left: 110px;}.par-110 {padding-right: 110px;}.palr-110 {padding-left: 110px;padding-right: 110px;}.maall-115 {margin: 115px;}.mat-115 {margin-top: 115px;}.mab-115 {margin-bottom: 115px;}.matb-115 {margin-top: 115px;margin-bottom: 115px;}.mal-115 {margin-left: 115px;}.mar-115 {margin-right: 115px;}.malr-115 {margin-left: 115px;margin-right: 115px;}.paall-115 {padding: 115px;}.pab-115 {padding-bottom: 115px;}.pat-115 {padding-top: 115px;}.patb-115 {padding-top: 115px;padding-bottom: 115px;}.pal-115 {padding-left: 115px;}.par-115 {padding-right: 115px;}.palr-115 {padding-left: 115px;padding-right: 115px;}.maall-120 {margin: 120px;}.mat-120 {margin-top: 120px;}.mab-120 {margin-bottom: 120px;}.matb-120 {margin-top: 120px;margin-bottom: 120px;}.mal-120 {margin-left: 120px;}.mar-120 {margin-right: 120px;}.malr-120 {margin-left: 120px;margin-right: 120px;}.paall-120 {padding: 120px;}.pab-120 {padding-bottom: 120px;}.pat-120 {padding-top: 120px;}.patb-120 {padding-top: 120px;padding-bottom: 120px;}.pal-120 {padding-left: 120px;}.par-120 {padding-right: 120px;}.palr-120 {padding-left: 120px;padding-right: 120px;}.maall-125 {margin: 125px;}.mat-125 {margin-top: 125px;}.mab-125 {margin-bottom: 125px;}.matb-125 {margin-top: 125px;margin-bottom: 125px;}.mal-125 {margin-left: 125px;}.mar-125 {margin-right: 125px;}.malr-125 {margin-left: 125px;margin-right: 125px;}.paall-125 {padding: 125px;}.pab-125 {padding-bottom: 125px;}.pat-125 {padding-top: 125px;}.patb-125 {padding-top: 125px;padding-bottom: 125px;}.pal-125 {padding-left: 125px;}.par-125 {padding-right: 125px;}.palr-125 {padding-left: 125px;padding-right: 125px;}.maall-130 {margin: 130px;}.mat-130 {margin-top: 130px;}.mab-130 {margin-bottom: 130px;}.matb-130 {margin-top: 130px;margin-bottom: 130px;}.mal-130 {margin-left: 130px;}.mar-130 {margin-right: 130px;}.malr-130 {margin-left: 130px;margin-right: 130px;}.paall-130 {padding: 130px;}.pab-130 {padding-bottom: 130px;}.pat-130 {padding-top: 130px;}.patb-130 {padding-top: 130px;padding-bottom: 130px;}.pal-130 {padding-left: 130px;}.par-130 {padding-right: 130px;}.palr-130 {padding-left: 130px;padding-right: 130px;}.maall-135 {margin: 135px;}.mat-135 {margin-top: 135px;}.mab-135 {margin-bottom: 135px;}.matb-135 {margin-top: 135px;margin-bottom: 135px;}.mal-135 {margin-left: 135px;}.mar-135 {margin-right: 135px;}.malr-135 {margin-left: 135px;margin-right: 135px;}.paall-135 {padding: 135px;}.pab-135 {padding-bottom: 135px;}.pat-135 {padding-top: 135px;}.patb-135 {padding-top: 135px;padding-bottom: 135px;}.pal-135 {padding-left: 135px;}.par-135 {padding-right: 135px;}.palr-135 {padding-left: 135px;padding-right: 135px;}.maall-140 {margin: 140px;}.mat-140 {margin-top: 140px;}.mab-140 {margin-bottom: 140px;}.matb-140 {margin-top: 140px;margin-bottom: 140px;}.mal-140 {margin-left: 140px;}.mar-140 {margin-right: 140px;}.malr-140 {margin-left: 140px;margin-right: 140px;}.paall-140 {padding: 140px;}.pab-140 {padding-bottom: 140px;}.pat-140 {padding-top: 140px;}.patb-140 {padding-top: 140px;padding-bottom: 140px;}.pal-140 {padding-left: 140px;}.par-140 {padding-right: 140px;}.palr-140 {padding-left: 140px;padding-right: 140px;}.maall-145 {margin: 145px;}.mat-145 {margin-top: 145px;}.mab-145 {margin-bottom: 145px;}.matb-145 {margin-top: 145px;margin-bottom: 145px;}.mal-145 {margin-left: 145px;}.mar-145 {margin-right: 145px;}.malr-145 {margin-left: 145px;margin-right: 145px;}.paall-145 {padding: 145px;}.pab-145 {padding-bottom: 145px;}.pat-145 {padding-top: 145px;}.patb-145 {padding-top: 145px;padding-bottom: 145px;}.pal-145 {padding-left: 145px;}.par-145 {padding-right: 145px;}.palr-145 {padding-left: 145px;padding-right: 145px;}.maall-150 {margin: 150px;}.mat-150 {margin-top: 150px;}.mab-150 {margin-bottom: 150px;}.matb-150 {margin-top: 150px;margin-bottom: 150px;}.mal-150 {margin-left: 150px;}.mar-150 {margin-right: 150px;}.malr-150 {margin-left: 150px;margin-right: 150px;}.paall-150 {padding: 150px;}.pab-150 {padding-bottom: 150px;}.pat-150 {padding-top: 150px;}.patb-150 {padding-top: 150px;padding-bottom: 150px;}.pal-150 {padding-left: 150px;}.par-150 {padding-right: 150px;}.palr-150 {padding-left: 150px;padding-right: 150px;}.maall-155 {margin: 155px;}.mat-155 {margin-top: 155px;}.mab-155 {margin-bottom: 155px;}.matb-155 {margin-top: 155px;margin-bottom: 155px;}.mal-155 {margin-left: 155px;}.mar-155 {margin-right: 155px;}.malr-155 {margin-left: 155px;margin-right: 155px;}.paall-155 {padding: 155px;}.pab-155 {padding-bottom: 155px;}.pat-155 {padding-top: 155px;}.patb-155 {padding-top: 155px;padding-bottom: 155px;}.pal-155 {padding-left: 155px;}.par-155 {padding-right: 155px;}.palr-155 {padding-left: 155px;padding-right: 155px;}.maall-160 {margin: 160px;}.mat-160 {margin-top: 160px;}.mab-160 {margin-bottom: 160px;}.matb-160 {margin-top: 160px;margin-bottom: 160px;}.mal-160 {margin-left: 160px;}.mar-160 {margin-right: 160px;}.malr-160 {margin-left: 160px;margin-right: 160px;}.paall-160 {padding: 160px;}.pab-160 {padding-bottom: 160px;}.pat-160 {padding-top: 160px;}.patb-160 {padding-top: 160px;padding-bottom: 160px;}.pal-160 {padding-left: 160px;}.par-160 {padding-right: 160px;}.palr-160 {padding-left: 160px;padding-right: 160px;}.maall-165 {margin: 165px;}.mat-165 {margin-top: 165px;}.mab-165 {margin-bottom: 165px;}.matb-165 {margin-top: 165px;margin-bottom: 165px;}.mal-165 {margin-left: 165px;}.mar-165 {margin-right: 165px;}.malr-165 {margin-left: 165px;margin-right: 165px;}.paall-165 {padding: 165px;}.pab-165 {padding-bottom: 165px;}.pat-165 {padding-top: 165px;}.patb-165 {padding-top: 165px;padding-bottom: 165px;}.pal-165 {padding-left: 165px;}.par-165 {padding-right: 165px;}.palr-165 {padding-left: 165px;padding-right: 165px;}.maall-170 {margin: 170px;}.mat-170 {margin-top: 170px;}.mab-170 {margin-bottom: 170px;}.matb-170 {margin-top: 170px;margin-bottom: 170px;}.mal-170 {margin-left: 170px;}.mar-170 {margin-right: 170px;}.malr-170 {margin-left: 170px;margin-right: 170px;}.paall-170 {padding: 170px;}.pab-170 {padding-bottom: 170px;}.pat-170 {padding-top: 170px;}.patb-170 {padding-top: 170px;padding-bottom: 170px;}.pal-170 {padding-left: 170px;}.par-170 {padding-right: 170px;}.palr-170 {padding-left: 170px;padding-right: 170px;}.maall-175 {margin: 175px;}.mat-175 {margin-top: 175px;}.mab-175 {margin-bottom: 175px;}.matb-175 {margin-top: 175px;margin-bottom: 175px;}.mal-175 {margin-left: 175px;}.mar-175 {margin-right: 175px;}.malr-175 {margin-left: 175px;margin-right: 175px;}.paall-175 {padding: 175px;}.pab-175 {padding-bottom: 175px;}.pat-175 {padding-top: 175px;}.patb-175 {padding-top: 175px;padding-bottom: 175px;}.pal-175 {padding-left: 175px;}.par-175 {padding-right: 175px;}.palr-175 {padding-left: 175px;padding-right: 175px;}.maall-180 {margin: 180px;}.mat-180 {margin-top: 180px;}.mab-180 {margin-bottom: 180px;}.matb-180 {margin-top: 180px;margin-bottom: 180px;}.mal-180 {margin-left: 180px;}.mar-180 {margin-right: 180px;}.malr-180 {margin-left: 180px;margin-right: 180px;}.paall-180 {padding: 180px;}.pab-180 {padding-bottom: 180px;}.pat-180 {padding-top: 180px;}.patb-180 {padding-top: 180px;padding-bottom: 180px;}.pal-180 {padding-left: 180px;}.par-180 {padding-right: 180px;}.palr-180 {padding-left: 180px;padding-right: 180px;}.maall-185 {margin: 185px;}.mat-185 {margin-top: 185px;}.mab-185 {margin-bottom: 185px;}.matb-185 {margin-top: 185px;margin-bottom: 185px;}.mal-185 {margin-left: 185px;}.mar-185 {margin-right: 185px;}.malr-185 {margin-left: 185px;margin-right: 185px;}.paall-185 {padding: 185px;}.pab-185 {padding-bottom: 185px;}.pat-185 {padding-top: 185px;}.patb-185 {padding-top: 185px;padding-bottom: 185px;}.pal-185 {padding-left: 185px;}.par-185 {padding-right: 185px;}.palr-185 {padding-left: 185px;padding-right: 185px;}.maall-190 {margin: 190px;}.mat-190 {margin-top: 190px;}.mab-190 {margin-bottom: 190px;}.matb-190 {margin-top: 190px;margin-bottom: 190px;}.mal-190 {margin-left: 190px;}.mar-190 {margin-right: 190px;}.malr-190 {margin-left: 190px;margin-right: 190px;}.paall-190 {padding: 190px;}.pab-190 {padding-bottom: 190px;}.pat-190 {padding-top: 190px;}.patb-190 {padding-top: 190px;padding-bottom: 190px;}.pal-190 {padding-left: 190px;}.par-190 {padding-right: 190px;}.palr-190 {padding-left: 190px;padding-right: 190px;}.maall-195 {margin: 195px;}.mat-195 {margin-top: 195px;}.mab-195 {margin-bottom: 195px;}.matb-195 {margin-top: 195px;margin-bottom: 195px;}.mal-195 {margin-left: 195px;}.mar-195 {margin-right: 195px;}.malr-195 {margin-left: 195px;margin-right: 195px;}.paall-195 {padding: 195px;}.pab-195 {padding-bottom: 195px;}.pat-195 {padding-top: 195px;}.patb-195 {padding-top: 195px;padding-bottom: 195px;}.pal-195 {padding-left: 195px;}.par-195 {padding-right: 195px;}.palr-195 {padding-left: 195px;padding-right: 195px;}.maall-200 {margin: 200px;}.mat-200 {margin-top: 200px;}.mab-200 {margin-bottom: 200px;}.matb-200 {margin-top: 200px;margin-bottom: 200px;}.mal-200 {margin-left: 200px;}.mar-200 {margin-right: 200px;}.malr-200 {margin-left: 200px;margin-right: 200px;}.paall-200 {padding: 200px;}.pab-200 {padding-bottom: 200px;}.pat-200 {padding-top: 200px;}.patb-200 {padding-top: 200px;padding-bottom: 200px;}.pal-200 {padding-left: 200px;}.par-200 {padding-right: 200px;}.palr-200 {padding-left: 200px;padding-right: 200px;}
+
+/****   Background Style *************/
+
+.fixedbackground {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.non-fixedbackground {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.repeat-background {
+	background-repeat: repeat;
+}
+.repeat_x-background {
+	background-repeat: repeat-x;
+}
+.repeat_y-background {
+	background-repeat: repeat-y;
+}
+
+/******* Border Radius ******/
+
+.no-bradius {
+	border-radius: 0;
+}
+.br-2 {
+	border-radius: 2px;
+}
+.br-3 {
+	border-radius: 3px;
+}
+.br-4 {
+	border-radius: 4px;
+}
+.br-5 {
+	border-radius: 5px;
+}
+.br-10 {
+	border-radius: 10px;
+}
+.brtl-0 {
+	border-top-left-radius: 0px;
+}
+.brtr-0 {
+	border-top-right-radius: 0px;
+}
+.brbl-0 {
+	border-bottom-left-radius: 0px;
+}
+.brbr-0 {
+	border-bottom-right-radius: 0px;
+}
+
+.br-circle {
+	border-radius: 50%;
+}
+
+
+/**** Border ***/
+.noborder {
+	border: none;
+}
+
+/*****  Button Style *****/
+
+.button-xlg {
+	height: 60px;
+  	padding: 0 35px;
+	box-shadow: none;
+	font-size: 26px;
+  	line-height: 55px;
+	border: none;
+}
+.button-lg {
+	height: 50px;
+	padding: 0 30px;
+	box-shadow: none;
+	font-size: 22px;
+	line-height: 46px;
+	border: none;
+}
+.button-md {
+	height: 40px;
+	padding: 0 20px;
+	box-shadow: none;
+	font-size: 18px;
+	line-height: 37px;
+	border: none;
+}
+.button-sm {
+	height: 30px;
+	padding: 0 10px;
+	box-shadow: none;
+	font-size: 14px;
+	line-height: 28px;
+	border: none;
+}
+.button-xs {
+	height: 20px;
+	padding: 0 10px;
+	box-shadow: none;
+	font-size: 10px;
+	line-height: 18px;
+	border: none;
+}
+.icon_button i{
+	margin-right: 5px;
+}
+
+
+/*** Radio And Check box change***/
+
+.checkbox {
+	padding-left: 0px; 
+}
+.checkbox label {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	padding-right: 10px; 
+	text-align: center;
+	padding-left: 0;
+}
+.checkbox label::before {
+	content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -20px;
+    padding-left: 0;
+    margin-left: 0px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.checkbox label::after {
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 0;
+	margin-left: 0px;
+	padding-left: 5px;
+	padding-top: 0px;
+	font-size: 11px;
+	color: #555555;
+	margin-top: 0px;
+}
+.checkbox input[type="checkbox"],
+.checkbox input[type="radio"] {
+    opacity: 0;
+    z-index: 1; 
+    *display: none;
+}
+.checkbox input[type="checkbox"]:focus + label::before,
+.checkbox input[type="radio"]:focus + label::before {
+	outline: none;
+	outline-offset: -2px; 
+}
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox input[type="radio"]:checked + label::after {
+	font-family: "FontAwesome";
+	*content: "\2714"; 
+}
+.checkbox input[type="checkbox"]:disabled + label,
+.checkbox input[type="radio"]:disabled + label {
+	opacity: 0.65; 
+}
+.checkbox input[type="checkbox"]:disabled + label::before,
+.checkbox input[type="radio"]:disabled + label::before {
+	background-color: #eeeeee;
+	cursor: not-allowed; 
+}
+.checkbox.checkbox-circle label::before {
+	border-radius: 50%; 
+}
+.checkbox.checkbox-inline {
+	margin-top: 0; 
+}
+
+.checkbox input[type="checkbox"]:checked + label::before,
+.checkbox input[type="radio"]:checked + label::before {
+	background-color: #fff;
+	box-shadow: inset 0px 0px 0px 3px #000;
+}
+.checkbox input[type="radio"]:checked + label::after {
+	
+}
+
+.material_form {
+	
+}
+.material_form .form-control{
+  border: 1px solid #bfbfbf;
+  border-radius: 0;
+  height: 45px !important;
+  box-shadow: none;
+}
+.material_form .form-control:focus { 
+	outline:none; 
+	box-shadow: none;
+	border-color: #000;
+}
+.material_form .form-group {
+	position:relative; 
+  	/*margin: 20px 0 0;
+  	display: inline-block;
+    width: 100%;*/
+}
+.material_form .form-group label {
+	color: #1a1a1a;
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 12px;
+	top: 20px;
+	margin: 0;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+}
+.material_form .form-control:focus + label, .material_form .form-control:valid ~ label {
+	top: -10px;
+    font-size: 13px;
+    color: #0ebdff;
+    background: #fff;
+    padding: 2px 7px;
+}
+textarea.form-control {
+	resize: none;
+}
+.material_form .small_height {
+	height: 60px !important;
+}
+textarea.mid_height {
+	height: 100px !important;
+}
+textarea.long_height {
+	height: 140px !important;
+}
+
+.animationform input {
+	outline: none;
+	border: none;
+}
+
+.animationform textarea {
+  outline: none;
+  border: none;
+}
+
+
+
+.animationform .form-control {
+	border: 1px solid #454545;
+    border-radius: 0;
+    height: 48px;
+    padding: 10px 5px 4px;
+	box-shadow: none;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+	color: #fff;
+	background-color: transparent;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.validate-input {
+    position: relative;
+}
+.focus-input100 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.focus-input100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    background: #fff;
+}
+.focus-input100::after {
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding-left: 5px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.animationform .form-control:focus + .focus-input100::before,
+.animationform .has-val.form-control + .focus-input100::before {
+    width: 100%;
+}
+.animationform .form-control:focus + .focus-input100::after,
+.animationform .has-val.form-control + .focus-input100::after {
+    top: 0px;
+    font-size: 13px;
+}
+.animationform textarea.form-control:focus + .focus-input100::after,
+.animationform textarea.has-val.form-control + .focus-input100::after {
+    top: -10px;
+    font-size: 13px;
+}
+.animationform .form-control.shortheight {
+	height: 48px;
+	resize: none;
+}
+.radiocontent, .animationform .form-control.selectoption {
+	font-size: 14px;
+    color: #999999;
+}
+.radiocontent {
+	margin-right: 10px;
+}
+.radio-section {
+	margin-right: 5px;
+}
+.radio-section label {
+	font-size: 14px;
+    color: #999999;
+    margin: 0;
+}
